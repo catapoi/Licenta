@@ -11,6 +11,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="css/navbar-static-top.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
     <script src="js/ie-emulation-modes-warning.js"></script>
   </head>
 
@@ -32,11 +33,51 @@
           <ul class="nav navbar-nav">
             <li><a href="#contact">Sistem Tichete</a></li>
             <li><a href="#contact">Rapoarte</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Clienti <span class="caret"></span></a>
+            <li>
+              <a href=#Mymodal data-toggle="modal" role="button" data-target="#myModal" >Clienti</a>
+
+              <!-- TEST MODAL -->
+
+
+        <!-- Button trigger modal -->
+        <!--button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+          Launch demo modal
+        </button -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- End Modal -->
+
+
+
+
+
+
+
+
+
+
               <ul class="dropdown-menu">
-                <li><a href="#">Vizualizare</a></li>
-                <li><a href="#">Cautare</a></li>
+                <li><a href="">Vizualizare</a></li>
+                <li><a href="">Cautare</a></li>
                 <li><a href="addclient.php">Adaugare</a></li>
               </ul>
             </li>
@@ -48,12 +89,15 @@
                 <li><a href="#">Adaugare</a></li>
               </ul>
             </li>
+            <li>
+              <a href="admin.php">Administrare</a>
+            </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Logout</a></li>
+            <li><a href="logout.php">Logout</a></li>
             <!--li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
             <li><a href="../navbar-fixed-top/">Fixed top</a></li -->
-          </ul>
+          </ul-->
         </div><!--/.nav-collapse -->
       </div>
     </nav>
