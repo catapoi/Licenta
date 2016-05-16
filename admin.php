@@ -73,7 +73,7 @@ include "php/functii.php";
           <div class="panel panel-default">
             <div class="panel-heading">Raport utilizatori</div>
               <div class="panel-body">
-                <a class="btn btn-default" href="php/userrepo.php">Genereaza Raport                
+                <a class="btn btn-default" target = '_blank' href="php/raportuseri.php">Genereaza Raport                
               </div>
             </div>
           </div>
